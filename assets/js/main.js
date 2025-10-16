@@ -1,0 +1,9 @@
+document.querySelector(".make-dark").onclick=function(){
+    document.querySelector("body").classList.add("dark");
+};
+document.querySelector(".make-light").onclick=function(){
+    document.querySelector("body").classList.remove("dark");
+};
+document.querySelector(".change-theme").onclick=function(){
+    document.querySelector("body").classList.toggle("dark");
+};
